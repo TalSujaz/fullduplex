@@ -7,8 +7,7 @@ class MyClient {
 		DataInputStream din = new DataInputStream(s.getInputStream());
 		DataOutputStream dout = new DataOutputStream(s.getOutputStream());
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("client side");
-		
+
 		String str = "", str2 = "";
 		while (!str.equals("stop")) {
 			str = br.readLine();

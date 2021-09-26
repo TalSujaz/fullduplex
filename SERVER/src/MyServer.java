@@ -8,7 +8,6 @@ class MyServer {
 		DataInputStream din = new DataInputStream(s.getInputStream());
 		DataOutputStream dout = new DataOutputStream(s.getOutputStream());
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("server side");
 		
 		String str = "", str2 = "";
 	
